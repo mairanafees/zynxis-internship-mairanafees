@@ -15,4 +15,5 @@ Created a responsive landing page using HTML and CSS.
 * Media Queries
 * Responsive Design
 
-## Status : Completed ✅
+## Status 
+Completed ✅
