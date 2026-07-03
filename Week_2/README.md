@@ -149,7 +149,8 @@ The application showcases:
 - Responsive UI
 - Modern Dark Theme
 
-*(Add screenshots here after completing the project.)*
+*<img width="1472" height="917" alt="image" src="https://github.com/user-attachments/assets/2c90da56-10ef-4ac1-927d-641cd513e486" />
+*
 
 ---
 
