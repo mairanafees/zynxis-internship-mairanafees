@@ -173,14 +173,4 @@ This project helped me:
 
 Build a reusable UI component library using React.js featuring Buttons, Cards, and Modals with a slate-grey dark theme, demonstrating reusable components and modern frontend development practices.
 
----
 
-## 👩‍💻 Author
-
-**Maira Nafees**
-
-Frontend Development Intern — Zynxis
-
----
-
-⭐ If you found this project helpful, consider giving it a star!
