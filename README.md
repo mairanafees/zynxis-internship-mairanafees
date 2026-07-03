@@ -13,7 +13,7 @@ Front-End Development
 * Responsive Landing Page
 
 ### Week 2
-* Pending
+* A reusable React.js Component Library featuring customizable Buttons, Cards, and Modal components with a modern slate-grey dark theme. Built using reusable components, props, and React state to demonstrate component-based UI development and responsive design.
 
 ### Week 3
 * Pending
