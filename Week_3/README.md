@@ -102,10 +102,6 @@ This project helped me gain hands-on experience with:
 
 ---
 
-## 🔗 Live Demo
 
-
-
----
 
 
