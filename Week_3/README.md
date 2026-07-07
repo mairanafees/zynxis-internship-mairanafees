@@ -1,16 +1,111 @@
-# React + Vite
+# 🛍️ Dynamic Product Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Product Catalog built with **React** and **Vite** as part of the **Zynxis Frontend Development Internship – Task 3**.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates React's dynamic UI capabilities using **React Hooks**. Users can search for products in real time and sort them by name or price while the interface updates instantly without refreshing the page.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 Real-time product search
+- ↕️ Sort products alphabetically (A–Z)
+- 💰 Sort by price (Low → High)
+- 💰 Sort by price (High → Low)
+- ⚛️ State management with `useState`
+- 🔄 Automatic updates using `useEffect`
+- 📱 Responsive grid layout
+- 🎨 Clean and modern user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- React Hooks (`useState`, `useEffect`)
+
+---
+
+## 📂 Folder Structure
+
+```text
+src/
+│── components/
+│     └── ProductCard.jsx
+│
+│── data/
+│     └── products.js
+│
+│── App.jsx
+│── App.css
+│── main.jsx
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/product-catalog.git
+```
+
+Navigate to the project
+
+```bash
+cd product-catalog
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit
+
+```text
+http://localhost:5174
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me gain hands-on experience with:
+
+- React Functional Components
+- React Hooks
+- State Management
+- Real-Time Filtering
+- Sorting Algorithms
+- Component Reusability
+- Responsive UI Design
+
+---
+
+## 📸 Preview
+
+<img width="1846" height="522" alt="image" src="https://github.com/user-attachments/assets/2619184c-6603-4af8-8823-6415b0d2432b" />
+
+---
+
+## 🔗 Live Demo
+
+
+
+---
+
+
