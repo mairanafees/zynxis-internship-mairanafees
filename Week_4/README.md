@@ -85,3 +85,5 @@ Clone the repository:
 
 ```bash
 git clone (https://github.com/mairanafees/zynxis-internship-mairanafees/blob/main/Week_4)
+
+Run on Browser: http://localhost:5173/
