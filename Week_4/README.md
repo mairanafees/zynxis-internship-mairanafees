@@ -84,4 +84,4 @@ vite.config.js
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone (https://github.com/mairanafees/zynxis-internship-mairanafees/blob/main/Week_4)
