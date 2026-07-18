@@ -60,3 +60,28 @@ Reusable components make the UI easier to maintain and expand.
 ---
 
 ## 📂 Project Structure
+src
+│
+├── components
+│ ├── Button.jsx
+│ ├── Card.jsx
+│ ├── Modal.jsx
+│
+├── App.jsx
+├── main.jsx
+├── index.css
+│
+public
+│
+package.json
+vite.config.js
+
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_LINK
