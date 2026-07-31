@@ -1,82 +1,16 @@
-# Week 5 – API Consumption & Handling
+# React + Vite
 
-## 📌 Project Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project was developed as part of the Front-End Development Internship at ZYNXIS.
+Currently, two official plugins are available:
 
-The application is a responsive Live User Dashboard built with React.js that consumes data from a REST API and displays it in an interactive and user-friendly interface.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🚀 Features
+## React Compiler
 
-* Fetches live user data from a REST API
-* Real-time search functionality
-* Loading skeletons during data fetching
-* Error handling for failed API requests
-* Empty state handling when no results are found
-* Refresh button to reload data
-* Responsive design for desktop and mobile devices
-* Smooth animations using Framer Motion
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Technologies Used
+## Expanding the ESLint configuration
 
-* React.js
-* JavaScript (ES6+)
-* CSS3
-* Framer Motion
-* REST API
-* Vite
-
-## 📂 Project Structure
-
-```text
-src/
-├── components/
-│   ├── UserCard.jsx
-│   └── SkeletonCard.jsx
-├── App.jsx
-├── App.css
-└── main.jsx
-```
-
-## 🎯 Learning Outcomes
-
-Through this project, I gained hands-on experience with:
-
-* API Consumption in React
-* React Hooks (useState, useEffect)
-* Asynchronous Data Fetching
-* Error and Loading State Management
-* Responsive UI Development
-* User Experience Enhancement
-
-## 📸 Features Demonstrated
-
-✅ REST API Integration
-
-✅ Dynamic Data Rendering
-
-✅ Loading Skeletons
-
-✅ Error Handling
-
-✅ Empty States
-
-✅ Search & Filtering
-
-✅ Responsive Design
-
-✅ Interactive Animations
-
-## 🔗 Live Demo
-
-<img width="928" height="910" alt="image" src="https://github.com/user-attachments/assets/371fcb70-1cb0-4c7c-bafa-b4cb2bdc93d5" />
-<img width="884" height="185" alt="image" src="https://github.com/user-attachments/assets/e820edb9-c517-476a-b8cf-21934ea0491d" />
-<img width="913" height="518" alt="image" src="https://github.com/user-attachments/assets/084d9c22-e913-4627-8b1a-237a589b5bf0" />
-<img width="921" height="419" alt="image" src="https://github.com/user-attachments/assets/c652e73e-77e0-40f1-807d-b7ddc52c24d5" />
-
-
-## 👩‍💻 Developer
-
-**Maira Nafees**
-
-Front-End Development Intern – ZYNXIS
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
