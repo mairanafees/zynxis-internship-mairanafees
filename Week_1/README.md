@@ -1,6 +1,8 @@
-## Week 1 
+## Week 1 Responsive Layouts
 
-## Task
+
+## 📌 Project Overview
+
 Modern HTML & CSS Mastery
 
 ## Description
@@ -14,6 +16,3 @@ Created a responsive landing page using HTML and CSS.
 * Grid
 * Media Queries
 * Responsive Design
-
-## Status 
-Completed ✅
