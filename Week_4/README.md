@@ -3,7 +3,7 @@
 
 ## 📌 Project Overview
 
-A modern React-based UI project focused on creating reusable components with **Tailwind CSS** and enhancing user experience through smooth animations using **Framer Motion** as a part of my internship AT Zynxis.
+A modern React-based UI project focused on creating reusable components with **Tailwind CSS** and enhancing user experience through smooth animations using **Framer Motion** as a part of my internship At Zynxis.
 
 This project demonstrates how subtle animations, hover effects, and responsive styling can improve the overall feel and interaction of a web interface.
 
