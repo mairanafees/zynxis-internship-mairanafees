@@ -1,16 +1,80 @@
-# React + Vite
+# 🛒 SmartCart – Smart Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based Shopping Cart application that demonstrates Global State Management using the Context API. The application allows users to browse products, add items to the cart, manage quantities, and retain cart data across browser sessions using Local Storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
 
-## React Compiler
+Cartify is designed to showcase application-wide state management in React. Instead of passing data through multiple components (prop drilling), the Context API is used to manage and share cart data globally.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project also uses Local Storage to ensure that cart data remains available even after refreshing or reopening the browser.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- View products in a responsive product grid
+- Add products to cart
+- Increase or decrease product quantity
+- Remove items automatically when quantity reaches zero
+- Real-time cart updates
+- Cart item counter in navbar
+- Total price calculation
+- Persistent data using Local Storage
+- Responsive design for different screen sizes
+- Checkout functionality with success confirmation
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- Context API
+- JavaScript (ES6+)
+- CSS3
+- Vite
+- Local Storage
+
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── components/
+│ ├── Navbar.jsx
+│ ├── ProductCard.jsx
+│ └── Cart.jsx
+│
+├── context/
+│ └── CartContext.jsx
+│
+├── data/
+│ └── products.js
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
+---
+
+## 🔄 State Management Flow
+
+Products → Add To Cart → Context API → Cart State
+↓
+Navbar Updates
+↓
+Cart Updates
+↓
+Local Storage Persistence
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
