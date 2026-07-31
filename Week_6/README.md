@@ -1,4 +1,4 @@
-# 🛒 Cartify – Smart Shopping Cart
+# 🛒 SmartCart – Smart Shopping Cart
 
 A modern React-based Shopping Cart application that demonstrates Global State Management using the Context API. The application allows users to browse products, add items to the cart, manage quantities, and retain cart data across browser sessions using Local Storage.
 
