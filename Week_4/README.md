@@ -1,6 +1,9 @@
 # 🚀Task 4: Advanced UI Animations & Styling Components
 
-A modern React-based UI project focused on creating reusable components with **Tailwind CSS** and enhancing user experience through smooth animations using **Framer Motion**.
+
+## 📌 Project Overview
+
+A modern React-based UI project focused on creating reusable components with **Tailwind CSS** and enhancing user experience through smooth animations using **Framer Motion** as a part of my internship AT Zynxis.
 
 This project demonstrates how subtle animations, hover effects, and responsive styling can improve the overall feel and interaction of a web interface.
 
