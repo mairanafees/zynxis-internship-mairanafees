@@ -1,75 +1,73 @@
-# 🛒 SmartCart – Smart Shopping Cart
-
-A modern React-based Shopping Cart application that demonstrates Global State Management using the Context API. The application allows users to browse products, add items to the cart, manage quantities, and retain cart data across browser sessions using Local Storage.
-
----
+# Week 5 – API Consumption & Handling
 
 ## 📌 Project Overview
 
-Cartify is designed to showcase application-wide state management in React. Instead of passing data through multiple components (prop drilling), the Context API is used to manage and share cart data globally.
+This project was developed as part of the Front-End Development Internship at ZYNXIS.
 
-The project also uses Local Storage to ensure that cart data remains available even after refreshing or reopening the browser.
+The application is a responsive Live User Dashboard built with React.js that consumes data from a REST API and displays it in an interactive and user-friendly interface.
 
----
+## 🚀 Features
 
-## ✨ Features
-
-- View products in a responsive product grid
-- Add products to cart
-- Increase or decrease product quantity
-- Remove items automatically when quantity reaches zero
-- Real-time cart updates
-- Cart item counter in navbar
-- Total price calculation
-- Persistent data using Local Storage
-- Responsive design for different screen sizes
-- Checkout functionality with success confirmation
-
----
+- Fetches live user data from a REST API
+- Real-time search functionality
+- Loading skeletons during data fetching
+- Error handling for failed API requests
+- Empty state handling when no results are found
+- Refresh button to reload data
+- Responsive design for desktop and mobile devices
+- Smooth animations using Framer Motion
 
 ## 🛠️ Technologies Used
 
 - React.js
-- Context API
 - JavaScript (ES6+)
 - CSS3
+- Framer Motion
+- REST API
 - Vite
-- Local Storage
-
----
 
 ## 📂 Project Structure
 
+```text
 src/
-│
 ├── components/
-│ ├── Navbar.jsx
-│ ├── ProductCard.jsx
-│ └── Cart.jsx
-│
-├── context/
-│ └── CartContext.jsx
-│
-├── data/
-│ └── products.js
-│
+│   ├── UserCard.jsx
+│   └── SkeletonCard.jsx
 ├── App.jsx
 ├── App.css
-├── main.jsx
-└── index.css
+└── main.jsx
+```
 
----
+## 🎯 Learning Outcomes
 
-## 🔄 State Management Flow
+Through this project, I gained hands-on experience with:
 
-Products → Add To Cart → Context API → Cart State
-↓
-Navbar Updates
-↓
-Cart Updates
-↓
-Local Storage Persistence
+- API Consumption in React
+- React Hooks (useState, useEffect)
+- Asynchronous Data Fetching
+- Error and Loading State Management
+- Responsive UI Development
+- User Experience Enhancement
 
----
+## 📸 Features Demonstrated
 
+✅ REST API Integration
+
+✅ Dynamic Data Rendering
+
+✅ Loading Skeletons
+
+✅ Error Handling
+
+✅ Empty States
+
+✅ Search & Filtering
+
+✅ Responsive Design
+
+✅ Interactive Animations
+
+## 🔗 Live Demo
+
+Add your deployed project link here.
 
