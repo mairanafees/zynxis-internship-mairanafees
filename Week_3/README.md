@@ -96,7 +96,7 @@ This project helped me gain hands-on experience with:
 
 ---
 
-## 📸 Preview
+## 🔗 Live Demo
 
 <img width="1846" height="522" alt="image" src="https://github.com/user-attachments/assets/2619184c-6603-4af8-8823-6415b0d2432b" />
 
