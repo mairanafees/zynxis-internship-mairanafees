@@ -180,46 +180,6 @@ Task-7-Performance/
 
 ---
 
-## ▶️ Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-### 2. Navigate into the project
-
-```bash
-cd Task-7-Performance
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start development server
-
-```bash
-npm run dev
-```
-
-### 5. Create production build
-
-```bash
-npm run build
-```
-
-### 6. Preview production build
-
-```bash
-npm run preview
-```
-
----
-
 ## 🎯 Learning Outcomes
 
 Through this task, I practiced:
@@ -238,5 +198,14 @@ Through this task, I practiced:
 ---
 
 ## 🔗 Live Demo
+<img width="1147" height="870" alt="image" src="https://github.com/user-attachments/assets/fa3645f9-20b8-43fa-9f1d-33e1c02a2e5c" />
+<img width="1060" height="689" alt="image" src="https://github.com/user-attachments/assets/9dad2db5-34f5-4789-ac19-92571213f9e1" />
+<img width="1292" height="885" alt="image" src="https://github.com/user-attachments/assets/145129f6-fcbf-4515-9a96-a46a0be13560" />
+<img width="1899" height="712" alt="image" src="https://github.com/user-attachments/assets/de59d4b8-9fbc-4edf-8135-65a58599f807" />
+
+
+
+
+
 
 
