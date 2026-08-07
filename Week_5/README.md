@@ -1,4 +1,4 @@
-# Week 5 – API Consumption & Handling
+# API Consumption & Handling
 
 ## 📌 Project Overview
 
