@@ -139,7 +139,7 @@ http://localhost:5173
 
 ---
 
-## 📸 Project Preview
+## 📸 Project Preview / 🔗 Live Demo
 
 The application showcases:
 
