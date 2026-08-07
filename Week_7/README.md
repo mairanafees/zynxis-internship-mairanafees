@@ -1,16 +1,207 @@
-# React + Vite
+# 🚀 Zynxis Internship — Task 7
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Performance & Web Vitals
 
-Currently, two official plugins are available:
+A performance-focused React.js frontend project developed as part of the **Zynxis Frontend Development Internship**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The main objective of this task was to optimize a frontend application for speed, responsiveness, and a better user experience using modern web performance techniques and **Google Lighthouse**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Task Objective
 
-## Expanding the ESLint configuration
+**Performance & Web Vitals**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Optimize the frontend for speed by implementing:
+
+* Image lazy loading
+* Component lazy loading
+* Code splitting
+* Responsive design
+* Optimized image rendering
+* Lighthouse performance auditing
+* Core Web Vitals optimization
+
+---
+
+## ✨ Features
+
+* ⚡ React.js + Vite
+* 📱 Fully responsive design
+* 🖼️ Lazy loading for images
+* 🔄 Lazy loading for React components
+* 📦 Code splitting with dynamic imports
+* ⏳ Suspense loading states
+* 🚀 Production-optimized Vite build
+* 🔍 SEO meta description
+* 📊 Google Lighthouse audit
+* 🎨 Modern dark/slate-grey UI
+
+---
+
+## ⚡ Performance Optimizations
+
+### 1. Image Lazy Loading
+
+Images that are not immediately visible are loaded only when they become relevant to the user.
+
+```jsx
+<img
+  src={project.image}
+  alt={project.title}
+  loading="lazy"
+  decoding="async"
+/>
+```
+
+This helps reduce the amount of content loaded during the initial page load.
+
+---
+
+### 2. Component Lazy Loading
+
+React's `lazy()` function is used to load non-critical components dynamically.
+
+```jsx
+const Projects = lazy(() => import("./components/Projects"));
+```
+
+This allows the application to split JavaScript into smaller chunks instead of loading every component immediately.
+
+---
+
+### 3. React Suspense
+
+Lazy-loaded components use `Suspense` with a fallback loading state.
+
+```jsx
+<Suspense fallback={<LoadingSection />}>
+  <Projects />
+</Suspense>
+```
+
+This provides a smoother loading experience while components are being fetched.
+
+---
+
+### 4. Code Splitting
+
+Dynamic imports allow Vite to generate separate JavaScript chunks for lazy-loaded components.
+
+This reduces the initial JavaScript workload and improves page loading performance.
+
+---
+
+### 5. Responsive Design
+
+The application has responsive layouts for:
+
+* Desktop
+* Tablet
+* Mobile
+
+CSS media queries are used to adapt the interface to different screen sizes.
+
+---
+
+### 6. Production Build
+
+The application was tested using Vite's production build:
+
+```bash
+npm run build
+```
+
+The production preview can be started using:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📊 Lighthouse Audit
+
+Google Lighthouse was used to evaluate the application across:
+
+| Category       | Target |
+| -------------- | -----: |
+| Performance    |    90+ |
+| Accessibility  |    90+ |
+| Best Practices |    90+ |
+| SEO            |    90+ |
+
+The Lighthouse audit report is included with the project as:
+
+```text
+Lighthouse-Task-7-Report.pdf
+```
+
+> The final scores shown in the PDF represent the actual Lighthouse audit results for the optimized production build.
+
+---
+
+## 🛠️ Technologies Used
+
+* **React.js**
+* **Vite**
+* **JavaScript**
+* **HTML5**
+* **CSS3**
+* **Google Lighthouse**
+
+---
+
+## 📁 Project Structure
+
+```text
+Task-7-Performance/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Projects.jsx
+│   │   ├── ProjectCard.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── README.md
+└── Lighthouse-Task-7-Report.pdf
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this task, I practiced:
+
+* Understanding frontend performance
+* Image optimization techniques
+* React component lazy loading
+* Dynamic imports
+* Code splitting
+* Loading states with Suspense
+* Responsive frontend development
+* Core Web Vitals concepts
+* Lighthouse performance auditing
+* Production build optimization
+
+---
+
+## 🔗 Live Demo
+<img width="1313" height="892" alt="image" src="https://github.com/user-attachments/assets/1ef43623-1030-48f8-bc5b-aaaef9a15659" />
+<img width="1316" height="808" alt="image" src="https://github.com/user-attachments/assets/0c0aa712-0793-4c8c-b27a-1fdfd0c85f4a" />
+<img width="1205" height="720" alt="image" src="https://github.com/user-attachments/assets/c01b68c3-2752-49ea-a735-18c0a9408554" />
+<img width="1895" height="755" alt="image" src="https://github.com/user-attachments/assets/a1526d70-97bd-4a81-947a-cb23d4350ae2" />
+
