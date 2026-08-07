@@ -1,4 +1,4 @@
-# 🚀Task 4: Advanced UI Animations & Styling Components
+# 🚀 Advanced UI Animations & Styling Components
 
 
 ## 📌 Project Overview
