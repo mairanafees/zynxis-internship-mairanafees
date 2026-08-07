@@ -19,3 +19,5 @@ Created a responsive landing page using HTML and CSS.
 
 ## 🔗 Live Demo
 <img width="1294" height="922" alt="image" src="https://github.com/user-attachments/assets/1382b04c-8c7b-412b-abaf-5e9e9d65fc15" />
+<img width="1091" height="277" alt="image" src="https://github.com/user-attachments/assets/5601eab9-7ca0-4841-832b-b73974e3725b" />
+
