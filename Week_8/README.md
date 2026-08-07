@@ -6,7 +6,7 @@ The dashboard provides clients with a centralized workspace to monitor projects,
 
 ## 🔗  Live Demo
 
-zynxisdashboardinternship.netlify.app
+http://zynxisdashboardinternship.netlify.app
 
 ## 📌 Project Overview
 
