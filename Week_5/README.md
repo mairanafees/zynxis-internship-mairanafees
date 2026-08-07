@@ -69,5 +69,13 @@ Through this project, I gained hands-on experience with:
 
 ## 🔗 Live Demo
 
-Add your deployed project link here.
+<img width="967" height="917" alt="image" src="https://github.com/user-attachments/assets/7a61bf09-f126-41c3-9f49-527272fcbbb7" />
+<img width="866" height="187" alt="image" src="https://github.com/user-attachments/assets/20e55ab8-3d61-4b70-a65a-df680f429334" />
+<img width="894" height="494" alt="image" src="https://github.com/user-attachments/assets/b904fb23-a978-495d-a195-379b410aea24" />
+<img width="906" height="389" alt="image" src="https://github.com/user-attachments/assets/ebb995c5-cc71-4d69-90e3-bfb133f0817e" />
+
+REFRESH
+<img width="914" height="576" alt="image" src="https://github.com/user-attachments/assets/4c5f34cc-4c85-4e69-8580-5fad61b35add" />
+
+
 
