@@ -1,6 +1,4 @@
-# 🚀 Zynxis Internship — Task 7
-
-## Performance & Web Vitals
+## 🚀 Performance & Web Vitals
 
 A performance-focused React.js frontend project developed as part of the **Zynxis Frontend Development Internship**.
 
@@ -239,17 +237,6 @@ Through this task, I practiced:
 
 ---
 
-## 📄 Internship Information
+## 🔗 Live Demo
 
-**Organization:** Zynxis
-**Internship:** Frontend Development Internship
-**Task:** Task 07 — Performance & Web Vitals
 
----
-
-## 👩‍💻 Developed By
-
-**Maira Nafees**
-
-Computer Science Undergraduate
-Frontend Development Intern
